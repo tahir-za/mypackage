@@ -28,7 +28,7 @@ def factorial(n):
 
     '''Return n!'''
     #Check input to see if it is a positive integer
-    if n <= 0:
+    if n < 0:
         print("Please insert a positive integer")
     else:
         # factorial 1 is 1 therefore return 1
