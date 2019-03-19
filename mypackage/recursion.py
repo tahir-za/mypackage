@@ -13,13 +13,13 @@ def fibonacci(n):
     '''Return nth term in fibonacci sequence'''
 
     #Check input to see if it is a positive integer
-    if n <= 0:
+    if n < 0:
         print("Please insert a positive integer")
     #First Fibonacci number is 0
-    elif n == 1:
+    elif n == 0:
         return 0
     #Second Fibonacci number is 1
-    elif n == 2:
+    elif n == 1:
         return 1
     else:
         return fibonacci(n-1)+fibonacci(n-2)
